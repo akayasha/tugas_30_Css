@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Belajar CSS - Niomic</title>
+    <style media="screen">
+      .container{
+        position :relative;
+        height : 350px;
+        background :#395a73;
+        padding : 10px;
+        width: 100%;
+        margin-top : 8px;
+            max-width:initial;
+            > .row{
+                margin: 0;
+                > .col{
+                    padding: 0;
+                }
+            }
+        }
+      }
+      .section{
+        font-size :24px;
+        font-family : arial;
+        line-height :15px;
+        position :absolute;
+        margin :15px;
+
+
+      }
+      .footer-container{
+        display : flex;
+        justify-content : space-between;
+        padding-top :35px;
+        border-top :solid;
+        border-width :thin;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="material-icons"><i class="material-icons left">more_vert</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Menu</a></li>
+        <li><a href="badges.html">Menu</a></li>
+        <li><a href="collapsible.html">Menu</a></li>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="section">
+      <h5>Belajar Materialize CSS</h5>
+      <p >
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      </div>
+        <div class="footer-container">
+        <a class="waves-effect waves-light btn ">Button 1 </a>
+        <a class=" waves-effect waves-light btn disabled" >Button 2 </a>
+        </div>
+
+
+    </div>
+  </nav>
+  </body>
+</html>
